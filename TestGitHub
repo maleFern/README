@@ -1,0 +1,11 @@
+program git;
+var 
+a,b,c:integer;
+begin
+writeln('Введите число');
+read(a);
+b:=a+10;
+c:=b+a;
+writeln('вывод программы =',b);
+writeln('сумма',c);
+end.
