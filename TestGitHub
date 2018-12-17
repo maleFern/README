@@ -4,8 +4,11 @@ a,b,c:integer;
 begin
 writeln('Введите число');
 read(a);
+if a > 0
+begin
 b:=a+10;
 c:=b+a;
 writeln('вывод программы =',b);
 writeln('сумма',c);
+end;
 end.
